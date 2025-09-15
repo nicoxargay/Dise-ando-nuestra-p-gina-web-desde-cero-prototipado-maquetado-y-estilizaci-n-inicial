@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentino de Castelar Basquet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- barra de navegacion + logo -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.avif" alt="logo" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navegacion">
+            <li><a href="#inicio" class="a-nav" >Inicio</a></li>
+            <li><a href="#historia" class="a-nav">Historia</a></li>
+            <li><a href="#jugadores" class="a-nav">Jugadores</a></li>
+            <li><a href="#partidos" class="a-nav">Partidos</a></li>
+            <li><a href="#contacto" class="a-nav">Contacto</a></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+        <!-- Inicio -->
+    <section id="inicio">
+        <img src="img/banner.jpg" alt="Sub diecisiete campeon nivel 1" class="banner">
+        <header>
+            <h1>Pasión por Argentino de Castelar</h1>
+        </header>
+        <h2 class="h2-inicio">Un espacio para los verdaderos hinchas</h2>
+        <a href="#historia" class="conoce-mas">Conocé más</a>
+    </section>
+    <!-- Historia -->
+    <section id="historia">
+        <h2 class="h2-historia">Historia</h2>
+        <h3 class="h3-historia">Conocé acerca de nuestro club</h3>
+        <div class="parrafo-img-hist">
+        <img src="img/clubargentinocastelar02.jpg" alt="club argentino de castelar" class="club-historia">
+        <p class="p-historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ea porro ullam nemo libero nostrum  animi accusamus laborum quae facere, reprehenderit dignissimos iste est fuga tempora modi fugiat omnis harum.
+        Totam vel, possimus veniam amet, tenetur ipsam enim commodi cum soluta, maiores praesentium. Praesentium beatae ex neque, totam magnam exercitationem hic rerum quis cumque nisi! Non, cupiditate? Laudantium, vel quisquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illum veniam necessitatibus doloremque magni hic, minus distinctio amet vitae, labore delectus, placeat odit! Eum, ratione voluptas asperiores ipsa debitis repellat!
+        Labore repellendus, voluptatem officia quam ratione, excepturi facilis cumque, mollitia hic minima cupiditate autem placeat laudantium perferendis earum fugit nihil facere explicabo odit totam quia architecto. Ratione velit in quaerat!</p>
+        </div>
+    </section>
+    <!-- Jugadores -->
+    <section id="jugadores">
+        <h2 class="h2-jugadores">Jugadores</h2>
+        <h3 class="h3-jugadores">Permitinos presentarte a nuestros jugadores</h3>
+        <div class="jugadores">
+        <h4 class="h4-primera">Primera Masculina</h4>
+        <div class="mayores">
+            <img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores">
+        </div>
+        <h4 class="h4-formativas">Formativas</h4>
+        <div class="formativas">
+        <img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt=""><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores"><img src="img/avatar-basquet.jpg" alt="jugadores">
+        </div>
+        </div>
+    </section>
+    <!-- Partidos -->
+    <section id="partidos">
+        <h2 class="h2-partidos">Partidos</h2>
+        <h3 class="h3-partidos">Enterate de proximas fechas o resultados</h3>
+        <!-- me gustaria poner algun atributo como el input: select y que al elegir la categoria cambie la tabla de partidos pero no se como hacerlo -->
+        <table class="tabla-partidos">
+            <thead>
+            <tr>
+            <th>Fecha</th>
+            <th>Rival</th>
+            <th>Local-Visitante</th>
+            <th>Resultado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>09-08</td>
+                <td>San Miguel</td>
+                <td>Visitante</td>
+                <td>Ac 89-98 Sm</td>
+            </tr>
+            <tr>
+                <td>16-08</td>
+                <td>Porteño</td>
+                <td>Local</td>
+                <td>N/D</td>
+            </tr>
+            <tr>
+                <td>23/08</td>
+                <td>Moron</td>
+                <td>Local</td>
+                <td>N/D</td>
+            </tr>
+            <tr>
+                <td>30/08</td>
+                <td>Indios de Moreno</td>
+                <td>Visitante</td>
+                <td>N/D</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2 class="h2-contacto">Contacto</h2>
+        <p class="p-contacto">Contactanos enviando un mail a: clubargentinocastelar@gmail.com</p>
+        <p class="p-contacto">También, encontranos en:</p>
+        <div class="redes-sociales">
+            <a href="http://www.instagram.com/castelarbasquet/" target="_blank" class="a-redes"><img src="img/instagram.png" alt="instagram"></a><a href="http://www.facebook.com/ClubArgentinodeCastelar/?locale=es_LA" target="_blank"><img src="img/facebook.png" alt="facebook"></a><a href="http://www.twitch.tv/ljoni05" target="_blank"><img src="img/twitch.png" alt="twitch"></a>
+        </div>
+        <a href="#inicio" class="volver-inicio">Volver al inicio</a>
+    </section>
+    </main>
+    <footer>
+        <p>© 2025 Club Argentino de Castelar</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
