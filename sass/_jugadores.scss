@@ -1,0 +1,50 @@
+/* jugadores */
+
+
+
+#jugadores {
+    padding: 10px;
+    background: linear-gradient(0deg, #EDEDED,#96C3EC);
+}
+
+.h2-jugadores {
+    text-align: center;
+    font-size: 32px;
+}
+
+.h3-jugadores {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+.h4-primera {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+.jugadores {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.jugadores img {
+    width: 70px;
+    margin: 5px;
+    box-shadow: 0 0 10px 0 #000a;
+    border-radius: 50%;
+}
+
+.mayores, .formativas {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    align-items: center;
+    max-width: 45%;      
+}
+
+.h4-formativas {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}

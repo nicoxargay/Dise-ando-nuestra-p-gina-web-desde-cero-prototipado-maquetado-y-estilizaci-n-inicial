@@ -1,0 +1,40 @@
+/* Historia */
+
+#historia {
+    background:#96C3EC;
+    background: linear-gradient(0deg, #96C3EC, #EDEDED);
+    padding: 20px;
+}
+
+.parrafo-img-hist {
+    display: flex;
+    align-items: start;
+}
+
+.club-historia {
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.h2-historia {
+    margin: 5px;
+    padding: 10px 10px 0 10px;
+    font-size: 32px;
+    border-left: 5px solid #00234F;
+}
+
+.h3-historia {
+    padding-left:20px ;
+    border-left: 5px solid #00234F;
+    margin: 5px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.p-historia {
+    display: flex;
+    padding: 20px;
+    border-left: 5px solid #00234F;
+    margin: 5px;
+}

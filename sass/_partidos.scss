@@ -1,0 +1,27 @@
+/* Partidos */
+
+#partidos {
+    background:#96C3EC;
+    background: linear-gradient(0deg, #96C3EC, #EDEDED);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.h2-partidos {
+    text-align: center;
+    font-size: 32px;
+}
+
+.h3-partidos {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+.tabla-partidos {
+    width: 100%;
+    border: 3px solid #00234F;
+}
+
+td, th {
+    border: 3px solid #00234F;
+}
