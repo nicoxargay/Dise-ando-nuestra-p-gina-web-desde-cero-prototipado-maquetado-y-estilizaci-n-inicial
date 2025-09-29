@@ -1,5 +1,6 @@
 $primary-color: #ededed;
 $secondary-color: #96c3ec;
+$tertiary-color: #00234f;
 @mixin gradient($linear-gradient) {
     background: linear-gradient($linear-gradient);
 }
@@ -16,7 +17,7 @@ body {
     font-family: "Roboto Slab", serif;
     margin: 0;
     padding: 0;
-    color: #00234F;
+    color: $tertiary-color;
 }
 
 section {

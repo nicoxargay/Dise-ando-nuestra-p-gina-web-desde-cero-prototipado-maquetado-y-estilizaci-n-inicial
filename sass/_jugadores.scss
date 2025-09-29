@@ -4,7 +4,7 @@
 
 #jugadores {
     padding: 10px;
-    background: linear-gradient(0deg, #EDEDED,#96C3EC);
+    @include gradient(0deg, $primary-color,$secondary-color);
 }
 
 .h2-jugadores {
@@ -13,12 +13,12 @@
 }
 
 .h3-jugadores {
-    border-left: 3px solid #00234F;
+    border-left: 3px solid $tertiary-color;
     padding: 5px;
 }
 
 .h4-primera {
-    border-left: 3px solid #00234F;
+    border-left: 3px solid $tertiary-color;
     padding: 5px;
 }
 
@@ -45,6 +45,6 @@
 }
 
 .h4-formativas {
-    border-left: 3px solid #00234F;
+    border-left: 3px solid $tertiary-color;
     padding: 5px;
 }

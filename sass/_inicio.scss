@@ -53,12 +53,13 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    background-color: #ededed;
+    background-color: $primary-color;
 }
+
 .a-nav {
     text-decoration: none;
-    color: #00234F;
-    border-left: 2px solid #00234F;
+    color: $tertiary-color;
+    border-left: 2px solid $tertiary-color;
     padding-left: 5px;
     text-align: center;
     margin-right: 10px;
@@ -80,24 +81,24 @@ h1 {
 
 #inicio {
     text-align: center;
-    background: linear-gradient(0deg, #EDEDED,#96C3EC);
+    @include gradient(0deg, $primary-color,$secondary-color);
 }
 
 .conoce-mas {
-    border: 2px solid #00234F;
+    border: 2px solid $tertiary-color;
     border-radius: 5px;
     padding: 5px;
-    background: #96C3EC;
+    background: $secondary-color;
     box-shadow: 0px 0px 10px #000a;
     font-weight: bold;
     text-decoration: none;
-    color: #00234F;
+    color: $tertiary-color;
 }
 
 .h2-inicio {
     display: inline-block;
     text-align: start;
     margin: 20px;
-    border-left: 4px solid #00234F;
+    border-left: 4px solid $tertiary-color;
     padding: 10px;
 }

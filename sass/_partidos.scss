@@ -1,8 +1,8 @@
 /* Partidos */
 
 #partidos {
-    background:#96C3EC;
-    background: linear-gradient(0deg, #96C3EC, #EDEDED);
+    background:$secondary-color;
+    @include gradient(0deg, $secondary-color, $primary-color);
     padding: 10px;
     padding-bottom: 50px;
 }
@@ -13,15 +13,15 @@
 }
 
 .h3-partidos {
-    border-left: 3px solid #00234F;
+    border-left: 3px solid $tertiary-color;
     padding: 5px;
 }
 
 .tabla-partidos {
     width: 100%;
-    border: 3px solid #00234F;
+    border: 3px solid $tertiary-color;
 }
 
 td, th {
-    border: 3px solid #00234F;
+    border: 3px solid $tertiary-color;
 }

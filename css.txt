@@ -1,0 +1,319 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body {
+    background: #ededed;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 0;
+    color: #00234F;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* diseño destokp */
+/* navegacion */
+.logo {
+    width: 75px;
+    margin: 5px 5px;
+}
+
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #ededed;
+}
+.a-nav {
+    text-decoration: none;
+    color: #00234F;
+    border-left: 2px solid #00234F;
+    padding-left: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+/* inicio */
+.banner {
+    width: 100%;
+    height: 40rem;
+    box-shadow: 0 0 25px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+#inicio {
+    text-align: center;
+    background: linear-gradient(0deg, #EDEDED,#96C3EC);
+}
+
+.conoce-mas {
+    border: 2px solid #00234F;
+    border-radius: 5px;
+    padding: 5px;
+    background: #96C3EC;
+    box-shadow: 0px 0px 10px #000a;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00234F;
+}
+
+.h2-inicio {
+    display: inline-block;
+    text-align: start;
+    margin: 20px;
+    border-left: 4px solid #00234F;
+    padding: 10px;
+}
+
+/* Historia */
+
+#historia {
+    background:#96C3EC;
+    background: linear-gradient(0deg, #96C3EC, #EDEDED);
+    padding: 20px;
+}
+
+.parrafo-img-hist {
+    display: flex;
+    align-items: start;
+}
+
+.club-historia {
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.h2-historia {
+    margin: 5px;
+    padding: 10px 10px 0 10px;
+    font-size: 32px;
+    border-left: 5px solid #00234F;
+}
+
+.h3-historia {
+    padding-left:20px ;
+    border-left: 5px solid #00234F;
+    margin: 5px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.p-historia {
+    display: flex;
+    padding: 20px;
+    border-left: 5px solid #00234F;
+    margin: 5px;
+}
+
+/* jugadores */
+
+
+
+#jugadores {
+    padding: 10px;
+    background: linear-gradient(0deg, #EDEDED,#96C3EC);
+}
+
+.h2-jugadores {
+    text-align: center;
+    font-size: 32px;
+}
+
+.h3-jugadores {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+.h4-primera {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+.jugadores {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.jugadores img {
+    width: 70px;
+    margin: 5px;
+    box-shadow: 0 0 10px 0 #000a;
+    border-radius: 50%;
+}
+
+.mayores, .formativas {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;     
+    align-items: center;
+    max-width: 45%;      
+}
+
+.h4-formativas {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+/* Partidos */
+
+#partidos {
+    background:#96C3EC;
+    background: linear-gradient(0deg, #96C3EC, #EDEDED);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.h2-partidos {
+    text-align: center;
+    font-size: 32px;
+}
+
+.h3-partidos {
+    border-left: 3px solid #00234F;
+    padding: 5px;
+}
+
+.tabla-partidos {
+    width: 100%;
+    border: 3px solid #00234F;
+}
+
+td, th {
+    border: 3px solid #00234F;
+}
+
+/* Contacto */
+#contacto {
+    text-align: center;
+    background: linear-gradient(0deg, #EDEDED,#96C3EC);
+}
+
+.h2-contacto {
+    font-size: 32px;
+}
+.p-contacto {
+    margin: 20px;
+}
+
+.volver-inicio {
+    border: 2px solid #00234F;
+    border-radius: 5px;
+    padding: 5px;
+    background: transparent;
+    box-shadow: 0px 0px 10px #000a;
+    font-weight: bold;
+    color: #00234F;
+    text-decoration: none;
+}
+
+.redes-sociales img {
+    width: 5%;
+    padding: px;
+    margin: 0 10px 30px 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* diseño movile */
+
+@media screen and (max-width: 480px) {
+    .banner {
+    width: 100%;
+    height: 25rem;
+    box-shadow: 0 0 25px 0;
+}
+    .h2-inicio {
+        text-align: center;
+        border: none;
+    }
+
+    .h2-historia {
+        text-align: center;
+        border: none;
+    }
+
+    .parrafo-img-hist {
+        display: block;
+    }
+    .club-historia {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .jugadores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .h4-primera {
+        margin-top: 5px;
+    }
+
+    .redes-sociales {
+    }
+    }
