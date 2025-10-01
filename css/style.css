@@ -11,7 +11,7 @@ body {
   font-family: "Roboto Slab", serif;
   margin: 0;
   padding: 0;
-  color: #00234F;
+  color: #00234f;
 }
 
 section {
@@ -53,8 +53,8 @@ section {
 }
 /* Historia */
 #historia {
-  background: #96C3EC;
-  background: linear-gradient(0deg, #96C3EC, #EDEDED);
+  background: #96c3ec;
+  background: linear-gradient(0deg, #96c3ec, #ededed);
   padding: 20px;
 }
 
@@ -73,12 +73,12 @@ section {
   margin: 5px;
   padding: 10px 10px 0 10px;
   font-size: 32px;
-  border-left: 5px solid #00234F;
+  border-left: 5px solid #00234f;
 }
 
 .h3-historia {
   padding-left: 20px;
-  border-left: 5px solid #00234F;
+  border-left: 5px solid #00234f;
   margin: 5px;
   text-align: justify;
   line-height: 1.6;
@@ -87,7 +87,7 @@ section {
 .p-historia {
   display: flex;
   padding: 20px;
-  border-left: 5px solid #00234F;
+  border-left: 5px solid #00234f;
   margin: 5px;
 }
 
@@ -147,8 +147,8 @@ section {
 
 .a-nav {
   text-decoration: none;
-  color: #00234F;
-  border-left: 2px solid #00234F;
+  color: #00234f;
+  border-left: 2px solid #00234f;
   padding-left: 5px;
   text-align: center;
   margin-right: 10px;
@@ -169,32 +169,32 @@ h1 {
 
 #inicio {
   text-align: center;
-  background: linear-gradient(0deg, #EDEDED, #96C3EC);
+  background: linear-gradient(0deg, #ededed, #96c3ec);
 }
 
 .conoce-mas {
-  border: 2px solid #00234F;
+  border: 2px solid #00234f;
   border-radius: 5px;
   padding: 5px;
-  background: #96C3EC;
+  background: #96c3ec;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6666666667);
   font-weight: bold;
   text-decoration: none;
-  color: #00234F;
+  color: #00234f;
 }
 
 .h2-inicio {
   display: inline-block;
   text-align: start;
   margin: 20px;
-  border-left: 4px solid #00234F;
+  border-left: 4px solid #00234f;
   padding: 10px;
 }
 
 /* jugadores */
 #jugadores {
   padding: 10px;
-  background: linear-gradient(0deg, #EDEDED, #96C3EC);
+  background: linear-gradient(0deg, #ededed, #96c3ec);
 }
 
 .h2-jugadores {
@@ -203,12 +203,12 @@ h1 {
 }
 
 .h3-jugadores {
-  border-left: 3px solid #00234F;
+  border-left: 3px solid #00234f;
   padding: 5px;
 }
 
 .h4-primera {
-  border-left: 3px solid #00234F;
+  border-left: 3px solid #00234f;
   padding: 5px;
 }
 
@@ -235,14 +235,14 @@ h1 {
 }
 
 .h4-formativas {
-  border-left: 3px solid #00234F;
+  border-left: 3px solid #00234f;
   padding: 5px;
 }
 
 /* Partidos */
 #partidos {
-  background: #96C3EC;
-  background: linear-gradient(0deg, #96C3EC, #EDEDED);
+  background: #96c3ec;
+  background: linear-gradient(0deg, #96c3ec, #ededed);
   padding: 10px;
   padding-bottom: 50px;
 }
@@ -253,23 +253,23 @@ h1 {
 }
 
 .h3-partidos {
-  border-left: 3px solid #00234F;
+  border-left: 3px solid #00234f;
   padding: 5px;
 }
 
 .tabla-partidos {
   width: 100%;
-  border: 3px solid #00234F;
+  border: 3px solid #00234f;
 }
 
 td, th {
-  border: 3px solid #00234F;
+  border: 3px solid #00234f;
 }
 
 /* Contacto */
 #contacto {
   text-align: center;
-  background: linear-gradient(0deg, #EDEDED, #96C3EC);
+  background: linear-gradient(0deg, #ededed, #96c3ec);
 }
 
 .h2-contacto {
@@ -281,13 +281,13 @@ td, th {
 }
 
 .volver-inicio {
-  border: 2px solid #00234F;
+  border: 2px solid #00234f;
   border-radius: 5px;
   padding: 5px;
   background: transparent;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6666666667);
   font-weight: bold;
-  color: #00234F;
+  color: #00234f;
   text-decoration: none;
 }
 

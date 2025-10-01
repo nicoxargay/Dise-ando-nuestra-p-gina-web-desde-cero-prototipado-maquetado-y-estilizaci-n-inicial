@@ -1,9 +1,11 @@
+
 $primary-color: #ededed;
 $secondary-color: #96c3ec;
 $tertiary-color: #00234f;
-@mixin gradient($linear-gradient) {
-    background: linear-gradient($linear-gradient);
+@mixin gradient ($direction, $color1, $color2) {
+background: linear-gradient($direction, $color1, $color2);
 }
+
 
 /* reset */
 * {
