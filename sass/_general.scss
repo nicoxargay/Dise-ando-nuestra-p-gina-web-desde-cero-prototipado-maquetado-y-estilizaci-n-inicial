@@ -2,6 +2,7 @@
 $primary-color: #ededed;
 $secondary-color: #96c3ec;
 $tertiary-color: #00234f;
+$padding-top: 100px;
 @mixin gradient ($direction, $color1, $color2) {
 background: linear-gradient($direction, $color1, $color2);
 }
@@ -21,11 +22,6 @@ body {
     padding: 0;
     color: $tertiary-color;
 }
-
-section {
-    margin: 40px 0;
-}
-
 
 /* diseño movile */
 

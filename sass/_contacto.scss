@@ -4,6 +4,7 @@
 #contacto {
     text-align: center;
     @include gradient(0deg, $primary-color,$secondary-color);
+    padding-top: $padding-top;
 }
 
 .h2-contacto {

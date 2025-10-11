@@ -5,6 +5,7 @@
     background:$secondary-color;
     @include gradient (0deg, $secondary-color, $primary-color);
     padding: 20px;
+    padding-top: $padding-top;
 }
 
 .parrafo-img-hist {

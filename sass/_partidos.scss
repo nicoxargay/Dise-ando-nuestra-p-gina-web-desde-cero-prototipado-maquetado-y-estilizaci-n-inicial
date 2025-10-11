@@ -6,6 +6,7 @@
     @include gradient(0deg, $secondary-color, $primary-color);
     padding: 10px;
     padding-bottom: 50px;
+    padding-top: $padding-top;
 }
 
 .h2-partidos {

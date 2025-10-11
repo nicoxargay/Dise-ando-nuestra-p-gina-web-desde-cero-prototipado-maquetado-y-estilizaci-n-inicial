@@ -5,6 +5,7 @@
 #jugadores {
     padding: 10px;
     @include gradient(0deg, $primary-color,$secondary-color);
+    padding-top: $padding-top;
 }
 
 .h2-jugadores {
