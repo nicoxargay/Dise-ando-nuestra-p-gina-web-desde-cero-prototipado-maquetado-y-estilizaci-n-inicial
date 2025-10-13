@@ -26,7 +26,6 @@
 .jugadores {
     display: flex;
     justify-content: space-between; 
-    align-items: flex-start;
     margin-top: 5px;
 }
 
@@ -42,6 +41,7 @@
     flex-direction: row; 
     flex-wrap: wrap;     
     align-items: center;
+    justify-content: center ;
     max-width: 45%;      
 }
 

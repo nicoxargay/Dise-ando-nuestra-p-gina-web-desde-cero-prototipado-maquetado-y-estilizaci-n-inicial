@@ -55,6 +55,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 
     display: flex;
     justify-content: space-between; 
@@ -79,9 +80,10 @@
     height: 40rem;
     box-shadow: 0 0 25px 0;
 }
-.img-futsal {
+.img-banner {
     height: 40rem;
 }
+
 h1 {
     text-align: center;
     font-size: 32px;
