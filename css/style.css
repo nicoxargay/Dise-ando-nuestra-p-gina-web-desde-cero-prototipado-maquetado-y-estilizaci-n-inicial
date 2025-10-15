@@ -15,7 +15,7 @@ body {
 }
 
 /* diseño movile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .img-banner {
     width: 100%;
     height: 25rem !important;
